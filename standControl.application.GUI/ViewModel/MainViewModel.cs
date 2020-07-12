@@ -11,11 +11,13 @@ using System.Windows.Input;
 using standControl.application.GUI.Model;
 using System.Xml.Serialization;
 using System.IO;
+using System.Windows.Controls;
 
 namespace standControl.application.GUI.ViewModel
 {
     class MainViewModel: INotifyPropertyChanged
     {
+        Page viewMain;
         static public  MainModel mainModel;
         static Timer aTimer;
         static View.ProtocolWindow ProtocolWindows;
@@ -452,6 +454,32 @@ namespace standControl.application.GUI.ViewModel
             get { return blStat; }
             set { if (blStat != value) { blStat = value; OnPropertyChanged(); GC.Collect(); } }
         }
+        private float procPrs;
+        public float sprocPrs
+        {
+            get { return procPrs; }
+            set { if (procPrs != value) { procPrs = value; OnPropertyChanged(); GC.Collect(); } }
+        }
+        private string procVis;
+        public string sprocVis
+        {
+            get { return procVis; }
+            set { if (procVis != value) { procVis = value; OnPropertyChanged(); GC.Collect(); } }
+        }
+
+        private Page _currentPage;
+        private float proc;
+
+        public Page CurrentPage
+        {
+            get { return _currentPage; }
+            set
+            {
+                _currentPage = value;
+                OnPropertyChanged("CurrentPage");
+                GC.Collect();
+            }
+        }
 
         #endregion
         #region Button
@@ -802,6 +830,7 @@ namespace standControl.application.GUI.ViewModel
             {
                 return new DelegateCommand(() =>
                 {
+                    Console.WriteLine("Get protocol");
                     mainModel.CreateProtocol();
                 });
 
@@ -1048,7 +1077,9 @@ namespace standControl.application.GUI.ViewModel
         }
         public MainViewModel()
         {
+            
             Deserial();
+            sprocVis = "Hidden";
             sQ50 = "True";
             shPump = "True";
             aTimer = new Timer();
@@ -1059,7 +1090,9 @@ namespace standControl.application.GUI.ViewModel
             aTimer.AutoReset = true;
             // Start the timer
             aTimer.Enabled = true;
-            
+            viewMain = new View.Mnemoshema();
+            CurrentPage = viewMain;
+
 
 
         }
@@ -1082,6 +1115,17 @@ namespace standControl.application.GUI.ViewModel
         }
         private void OnTimedEvent(object sender, ElapsedEventArgs e)
         {
+          
+            sprocPrs = MainModel.procPers;
+            if(MainModel.procPers>0f && MainModel.procPers < 100f) 
+            {
+                sprocVis = "Visible";
+            }
+            else
+            {
+                sprocVis = "Hidden";
+             
+            }
             Visual();
         }
        

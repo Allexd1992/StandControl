@@ -92,8 +92,8 @@
                         <ColumnDefinition Width="1.5*"/>
                         <ColumnDefinition Width="1.5*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBox  Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay, Path=Text}"  Style="{StaticResource setLabel2}" Background="Transparent" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="12" BorderThickness="0"  Foreground="Black" TextAlignment="Center"/>
-                    <Label  Grid.Column="3" Grid.ColumnSpan="1" Content="{TemplateBinding Tag}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" FontSize="10" Style="{StaticResource Tittle_St}"/>
+                    <TextBox  Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay, Path=Text}"  Style="{StaticResource setLabel2}" Background="Transparent" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="11" BorderThickness="0"  Foreground="Black" TextAlignment="Center"/>
+                    <Label  Grid.Column="3" Grid.ColumnSpan="1" Content="{TemplateBinding Tag}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" FontSize="8" Style="{StaticResource Tittle_St}"/>
                 </Grid>
             </ContentControl>
         </Border>
@@ -108,7 +108,7 @@
                         <ColumnDefinition Width="1.5*"/>
                         <ColumnDefinition Width="1.5*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBox  Grid.Column="0" Grid.ColumnSpan="3" Text="{Binding RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay, Path=Text}"  Style="{StaticResource setLabel2}" Background="Transparent" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="12" BorderThickness="0"  Foreground="Black" TextAlignment="Center"/>
+                    <TextBox  Grid.Column="0" Grid.ColumnSpan="3" Text="{Binding RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay, Path=Text}"  Style="{StaticResource setLabel2}" Background="Transparent" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="11" BorderThickness="0"  Foreground="Black" TextAlignment="Center"/>
                 </Grid>
             </ContentControl>
         </Border>
@@ -119,12 +119,12 @@
             <ContentControl>
                 <Grid  >
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.5*"/>
                         <ColumnDefinition Width="1.5*"/>
                         <ColumnDefinition Width="1.5*"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock  Grid.Column="0" Grid.ColumnSpan="2" Text="{TemplateBinding Text}" Style="{StaticResource  btLabel}" Background="Transparent" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="12"  Foreground="White" TextAlignment="Center"/>
-                    <Label  Grid.Column="2" Grid.ColumnSpan="1" Content="{TemplateBinding Tag}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="9" Style="{StaticResource Tittle_St}"/>
+                    <Label  Grid.Column="2" Grid.ColumnSpan="1" Content="{TemplateBinding Tag}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="8" Style="{StaticResource Tittle_St}"/>
                 </Grid>
             </ContentControl>
         </Border>

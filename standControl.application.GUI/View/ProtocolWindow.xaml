@@ -73,16 +73,16 @@
                 <RowDefinition Height=".5*"/>
             </Grid.RowDefinitions>
             <Label Grid.ColumnSpan="10"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="0" Content="Номинальные показатели" Style="{StaticResource Tittle_St}" HorizontalAlignment="Center" FontSize="14"/>
-            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="1" Content="Подача" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="1" Content="Подача" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="1" Template="{StaticResource setValue}" Text="{Binding sQNom}" Tag="м3/с" Grid.ColumnSpan="2" Margin="0,0,65,0" />
-            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="2" Grid.Row="1" Content="Напор" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="2" Grid.Row="1" Content="Напор" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="3" Template="{StaticResource setValue2}" Text="{Binding sHNom}" Tag="" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="1" Content="Частота вращения" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="1" Content="Частота вращения" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="6" Template="{StaticResource setValue}" Text="{Binding sSpedNom}" Tag="RPM" Grid.ColumnSpan="2" Margin="0,0,63,0" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="7" Grid.Row="1" Content="Номинальный КПД" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="7" Grid.Row="1" Content="Номинальный КПД" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="9" Template="{StaticResource setValue}" Text="{Binding sKPDNom}" Tag="%" />
 
-            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="3" Content="Мощность" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="3" Content="Мощность" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="3" Grid.Column="1" Template="{StaticResource setValue}" Text="{Binding sPowNom}" Tag="кВт" Grid.ColumnSpan="2" Margin="0,0,65,0" />
 
         </Grid>
@@ -109,11 +109,11 @@
             </Grid.RowDefinitions>
             <Label Grid.ColumnSpan="10"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="0" Content="Испытательная среда" Style="{StaticResource Tittle_St}" HorizontalAlignment="Center" FontSize="14"/>
 
-            <Label Grid.ColumnSpan="3"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="1" Content="Давление упругих паров жидкости" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="3"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="1" Content="Давление упругих паров жидкости" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="3" Template="{StaticResource setValue}" Text="{Binding spSmog}" Tag="кПа" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="1" Content="Кинематическая взяк." Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="1" Content="Кинематическая взяк." Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="6" Template="{StaticResource setValue2}" Text="{Binding skVz}" Tag="" Grid.ColumnSpan="2" Margin="0,0,64,0" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="7" Grid.Row="1" Content="Степеь кислотности" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="7" Grid.Row="1" Content="Степеь кислотности" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="9" Template="{StaticResource setValue2}" Text="{Binding spH}" Tag="" Grid.ColumnSpan="1" Margin="0,0,0,0" />
         </Grid>
         <Grid Grid.Row="13" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="10" Background="#FF131315" Margin="5" >
@@ -139,20 +139,20 @@
                 <RowDefinition Height=".5*"/>
             </Grid.RowDefinitions>
             <Label Grid.ColumnSpan="10"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="0" Content="Привод (Двигатель)" Style="{StaticResource Tittle_St}" HorizontalAlignment="Center" FontSize="14"/>
-            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="1" Content="Изготовит." Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="1" Content="Изготовит." Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="1" Template="{StaticResource setValue2}" Text="{Binding sDriveMode}" Tag="" Grid.ColumnSpan="2" Margin="0,0,76,0" />
-            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="2" Grid.Row="1" Content="Число фаз" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="2" Grid.Row="1" Content="Число фаз" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="3" Template="{StaticResource setValue2}" Text="{Binding sDrivePhase}" Tag="" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="1" Content="Частота вращения" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="1" Content="Частота вращения" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="6" Template="{StaticResource setValue}" Text="{Binding sDriveSpeed}" Tag="RPM" Grid.ColumnSpan="2" Margin="0,0,63,0" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="7" Grid.Row="1" Content="Тип исполнения" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="7" Grid.Row="1" Content="Тип исполнения" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="9" Template="{StaticResource setValue2}" Text="{Binding sDriveType}" Tag="" />
 
-            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="3" Content="Мощность" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="3" Content="Мощность" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="3" Grid.Column="1" Template="{StaticResource setValue}" Text="{Binding sDrivePow}" Tag="кВт" Grid.ColumnSpan="2" Margin="0,0,76,0" />
-            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="2" Grid.Row="3" Content="Ток" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="2" Grid.Row="3" Content="Ток" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="3" Grid.Column="3" Template="{StaticResource setValue}" Text="{Binding sDriveCurr}" Tag="А" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="3" Content="Напряжение" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="3" Content="Напряжение" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="3" Grid.Column="6" Template="{StaticResource setValue}" Text="{Binding sDriveVolt}" Tag="В" Grid.ColumnSpan="2" Margin="0,0,63,0" />
 
         </Grid>
@@ -178,13 +178,13 @@
 
             </Grid.RowDefinitions>
             <Label Grid.ColumnSpan="10"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="0" Content="Условия испытаний" Style="{StaticResource Tittle_St}" HorizontalAlignment="Center" FontSize="14"/>
-            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="1" Content="Вход Zm1" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="1" Content="Вход Zm1" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="1" Template="{StaticResource setValue}" Text="{Binding sZm1}" Tag="М" Grid.ColumnSpan="2" Margin="0,0,76,0" />
-            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="2" Grid.Row="1" Content="Выход Zm2" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="2" Grid.Row="1" Content="Выход Zm2" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="3" Template="{StaticResource setValue}" Text="{Binding sZm2}" Tag="М" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="1" Content="Температура воздуха" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="1" Content="Температура воздуха" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="6" Template="{StaticResource setValue}" Text="{Binding sTempAir}" Tag="С" Grid.ColumnSpan="2" Margin="0,0,63,0" />
-            <Label Grid.ColumnSpan="3"  Grid.RowSpan="1" Grid.Column="7" Grid.Row="1" Content="Барометрическое давление" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Margin="12,1,47.667,1" Width="165"/>
+            <Label Grid.ColumnSpan="3"  Grid.RowSpan="1" Grid.Column="7" Grid.Row="1" Content="Барометрическое давление" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Margin="12,1,47.667,1" Width="165"/>
             <TextBox Grid.Row="1" Grid.Column="9" Template="{StaticResource setValue}" Text="{Binding sbPress}" Tag="кПа" Grid.ColumnSpan="2" Margin="26,0,10.667,0" />
 
         </Grid>
@@ -215,28 +215,28 @@
                 <RowDefinition Height=".5*"/>
             </Grid.RowDefinitions>
             <Label Grid.ColumnSpan="10"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="0" Content="Протокол испытаний" Style="{StaticResource Tittle_St}" HorizontalAlignment="Center" FontSize="14"/>
-            <Label Grid.ColumnSpan="1" Grid.Column="0" Grid.Row="1" Content="Наименов.&#xD;&#xA;продукции" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Margin="0,1,0,10" Height="42" Width="75" Grid.RowSpan="2"/>
+            <Label Grid.ColumnSpan="1" Grid.Column="0" Grid.Row="1" Content="Наименов.&#xD;&#xA;продукции" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Margin="0,1,0,10" Height="42" Width="75" Grid.RowSpan="2"/>
             <TextBox Grid.Row="1" Grid.Column="1" Template="{StaticResource setValue2}" Text="{Binding sProdName}" Tag="" Grid.ColumnSpan="2" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="2" Grid.Column="3" Grid.Row="1" Content="Изготовитель" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Margin="0,6,61,5.25" Width="88"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="2" Grid.Column="3" Grid.Row="1" Content="Изготовитель" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Margin="0,6,61,5.25" Width="88"/>
             <TextBox Grid.Row="1" Grid.Column="4" Template="{StaticResource setValue2}" Text="{Binding sModeName}" Tag="" Grid.ColumnSpan="2" Margin="19,0,0,0.25" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="6" Grid.Row="1" Content="Дата изготовления" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="6" Grid.Row="1" Content="Дата изготовления" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="1" Grid.Column="8" Grid.ColumnSpan="2" Template="{StaticResource setValue2}" Text="{Binding sModeTime}" Tag="" />
 
             <TextBox Grid.Row="3" Grid.Column="8" Grid.ColumnSpan="2" Template="{StaticResource setValue2}" Text="{Binding sExpClass}" Tag="" />
-            <Label Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="3" Content="Место&#xD;&#xA;провед. исп." Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Margin="0,0.75,62,10.5" Height="42" Width="87" Grid.RowSpan="2"/>
+            <Label Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="3" Content="Место&#xD;&#xA;провед. исп." Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Margin="0,0.75,62,10.5" Height="42" Width="87" Grid.RowSpan="2"/>
             <TextBox Grid.Row="3" Grid.Column="1" Template="{StaticResource setValue2}" Text="{Binding sExpPlace}" Tag="" Grid.ColumnSpan="2" />
-            <Label Grid.ColumnSpan="3"  Grid.RowSpan="2" Grid.Column="2" Grid.Row="3" Content="Вид испытаний" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Margin="74.5,5.75,55.5,5.5" Width="95"/>
+            <Label Grid.ColumnSpan="3"  Grid.RowSpan="2" Grid.Column="2" Grid.Row="3" Content="Вид испытаний" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Margin="74.5,5.75,55.5,5.5" Width="95"/>
             <TextBox Grid.Row="3" Grid.Column="4" Template="{StaticResource setValue2}" Text="{Binding sExpType}" Tag="" Grid.ColumnSpan="2" Margin="19,0,0,0.25" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="6" Grid.Row="3" Content="Класс испытаний" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="6" Grid.Row="3" Content="Класс испытаний" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
 
-            <Label Grid.ColumnSpan="1" Grid.Column="0" Grid.Row="5" Content="Протокол&#xD;&#xA;испытания" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Margin="0,1,0,10" Height="42" Width="75" Grid.RowSpan="2"/>
+            <Label Grid.ColumnSpan="1" Grid.Column="0" Grid.Row="5" Content="Протокол&#xD;&#xA;испытания" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Margin="0,1,0,10" Height="42" Width="75" Grid.RowSpan="2"/>
             <TextBox Grid.Row="5" Grid.Column="1" Template="{StaticResource setValue2}" Text="{Binding sProt}" Tag="" Grid.ColumnSpan="2" />
-            <Label  Grid.RowSpan="3" Grid.Column="3" Grid.Row="4" Content="Номер&#xD;&#xA;протокола" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Margin="2,7,0,2" Width="73" Height="43"/>
+            <Label  Grid.RowSpan="3" Grid.Column="3" Grid.Row="4" Content="Номер&#xD;&#xA;протокола" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Margin="2,7,0,2" Width="73" Height="43"/>
             <TextBox Grid.Row="5" Grid.Column="4" Template="{StaticResource setValue2}" Text="{Binding sProtMunb}" Tag="" Grid.ColumnSpan="2" Margin="19,0,0,0.25" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="6" Grid.Row="5" Content="Дата испытания" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="1" Grid.Column="6" Grid.Row="5" Content="Дата испытания" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10"/>
             <TextBox Grid.Row="5" Grid.Column="8" Grid.ColumnSpan="2" Template="{StaticResource setValue2}" Text="{Binding sExpDate}" Tag="" />
 
-            <Label Grid.ColumnSpan="1" Grid.Column="0" Grid.Row="7" Content="Заказчик" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Height="22" Width="75" Margin="0,2,0,0" />
+            <Label Grid.ColumnSpan="1" Grid.Column="0" Grid.Row="7" Content="Заказчик" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Height="22" Width="75" Margin="0,2,0,0" />
             <TextBox Grid.Row="7" Grid.Column="1" Template="{StaticResource setValue2}" Text="{Binding sClient}" Tag="" Grid.ColumnSpan="9" />
 
             <!--<Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="2" Grid.Row="3" Content="Темп. возд." Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12"/>
@@ -280,22 +280,22 @@
 
             </Grid.RowDefinitions>
             <Label Grid.ColumnSpan="10"  Grid.RowSpan="1" Grid.Column="0" Grid.Row="0" Content="Насос" Style="{StaticResource Tittle_St}" HorizontalAlignment="Center" FontSize="14"/>
-            <Label Grid.ColumnSpan="1" Grid.Column="0" Content="Насос" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Margin="0,0,0,1.5" Height="26" Width="75" Grid.Row="1"/>
+            <Label Grid.ColumnSpan="1" Grid.Column="0" Content="Насос" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Margin="0,0,0,1.5" Height="26" Width="75" Grid.Row="1"/>
             <TextBox Grid.Row="1" Grid.Column="1" Template="{StaticResource setValue2}" Text="{Binding sPump}" Tag="" Grid.ColumnSpan="2" />
-            <Label Grid.ColumnSpan="2" Grid.Column="3" Content="Заводской&#xD;&#xA;номер" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Margin="1,22,61,10" Width="88" Height="38" Grid.RowSpan="3"/>
+            <Label Grid.ColumnSpan="2" Grid.Column="3" Content="Заводской&#xD;&#xA;номер" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Margin="1,22,61,10" Width="88" Height="38" Grid.RowSpan="3"/>
             <TextBox Grid.Row="1" Grid.Column="4" Template="{StaticResource setValue2}" Text="{Binding sPumpNumb}" Tag="" Grid.ColumnSpan="2" Margin="19,0,0,0.25" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="3" Grid.Column="6" Content="Обознач. типоразм. и&#xD;&#xA;стадия произв." Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Height="42" Margin="11,23,0.5,2" Width="138"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="3" Grid.Column="6" Content="Обознач. типоразм. и&#xD;&#xA;стадия произв." Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Height="42" Margin="11,23,0.5,2" Width="138"/>
             <TextBox Grid.Row="1" Grid.Column="8" Grid.ColumnSpan="2" Template="{StaticResource setValue2}" Text="{Binding sPumpMode}" Tag="" />
 
             <TextBox Grid.Row="3" Grid.Column="5" Template="{StaticResource setValue}" Text="{Binding sD1in}" Tag="М" />
-            <Label Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="3" Content="Номер&#xD;&#xA;заказа" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Margin="0,0.75,62,10.5" Height="42" Width="87" Grid.RowSpan="2"/>
+            <Label Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="3" Content="Номер&#xD;&#xA;заказа" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Margin="0,0.75,62,10.5" Height="42" Width="87" Grid.RowSpan="2"/>
             <TextBox Grid.Row="3" Grid.Column="1" Template="{StaticResource setValue2}" Text="{Binding sOrderNumb}" Tag="" />
-            <Label Grid.ColumnSpan="2"  Grid.RowSpan="3" Grid.Column="2" Grid.Row="2" Content="Количество&#xD;&#xA;по заказу" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Margin="0,9,54,5" Width="96" Height="42"/>
+            <Label Grid.ColumnSpan="2"  Grid.RowSpan="3" Grid.Column="2" Grid.Row="2" Content="Количество&#xD;&#xA;по заказу" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Margin="0,9,54,5" Width="96" Height="42"/>
             <TextBox Grid.Row="3" Grid.Column="3" Template="{StaticResource setValue2}" Text="{Binding sOrderNum}" Tag="" Margin="2,0,0,0" />
-            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="3" Content="D1вход" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="12" Width="52" Margin="12,1,10.5,2"/>
-            <Label Grid.Column="6" Grid.Row="3" Content="D2выход" Style="{StaticResource General_St}" HorizontalAlignment="Center" FontSize="12" Width="61" Height="25" VerticalAlignment="Bottom"/>
+            <Label Grid.ColumnSpan="1"  Grid.RowSpan="1" Grid.Column="4" Grid.Row="3" Content="D1вход" Style="{StaticResource  General_St}" HorizontalAlignment="Center" FontSize="10" Width="52" Margin="12,1,10.5,2"/>
+            <Label Grid.Column="6" Grid.Row="3" Content="D2выход" Style="{StaticResource General_St}" HorizontalAlignment="Center" FontSize="10" Width="61" Height="25" VerticalAlignment="Bottom"/>
             <TextBox Grid.Row="3" Grid.Column="7" Grid.ColumnSpan="1" Template="{StaticResource setValue}" Text="{Binding sD2Out}" Tag="М" Margin="1,0,0,0" />
-            <Label Grid.Column="8" Grid.Row="3" Content="Dраб" Style="{StaticResource General_St}" HorizontalAlignment="Center" FontSize="12" Margin="17,0,16,1" Width="42" Height="25" VerticalAlignment="Bottom" RenderTransformOrigin="1.192,0.56"/>
+            <Label Grid.Column="8" Grid.Row="3" Content="Dраб" Style="{StaticResource General_St}" HorizontalAlignment="Center" FontSize="10" Margin="17,0,16,1" Width="42" Height="25" VerticalAlignment="Bottom" RenderTransformOrigin="1.192,0.56"/>
             <TextBox Grid.Row="3" Grid.Column="9" Grid.ColumnSpan="1" Template="{StaticResource setValue}" Text="{Binding sDWork}" Tag="М" Margin="1,0,0,0" />
 
         </Grid>
